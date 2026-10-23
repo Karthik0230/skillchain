@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Hardhat generated files
+artifacts/
+cache/
+coverage/
+typechain-types/
+
+# Frontend build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
